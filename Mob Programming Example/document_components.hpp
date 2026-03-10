@@ -8,7 +8,7 @@
 
 namespace MicroSlopSuperOffice
 {
-    class DocumentRenderer; // Forward declaration to avoid circular dependency
+    class RenderCtx; // Forward declaration to avoid circular dependency
 
     class DocumentComponent
     {
