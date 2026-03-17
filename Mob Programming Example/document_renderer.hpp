@@ -1,5 +1,9 @@
 #pragma once
 
+#include <vector>
+#include <memory>
+
+
 namespace MicroSlopSuperOffice
 {
     class RenderCtx
@@ -7,6 +11,8 @@ namespace MicroSlopSuperOffice
     public:
         // Context for rendering, e.g. current page, zoom level, etc.
     };
+
+    class DocumentComponent; // Forward declaration to avoid circular dependency
 
     class DocumentRenderer
     {
